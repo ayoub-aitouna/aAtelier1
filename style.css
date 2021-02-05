@@ -1,0 +1,142 @@
+* {
+    background: #4c4c4c;
+    color: #ffffff;
+}
+
+.wrapper {
+    display: inline;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* body {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    margin-left: 20%;
+    background-color: #4c4c4c;
+    box-shadow: 3px 3px 5px #121212;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+} */
+
+.wrapper input {
+    height: 30px;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.center {
+    width: 30%;
+    left: 60%;
+}
+
+._center {
+    width: 30%;
+    left: 20%;
+}
+
+.centerbutton {
+    left: 88%;
+    width: 15%;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+}
+
+.centerbutton:focus {
+    left: 88%;
+    width: 15%;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    outline: none;
+}
+
+.number {
+    color: #ffffff;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+.table {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    /*border: 6px solid #000;*/
+    font-style: italic;
+}
+
+.td {
+    width: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.td input {
+    height: 20px;
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+
+.td input :focus {
+    outline: none;
+    text-align: center;
+}
+
+.tfoot input {
+    height: 35px;
+    margin-left: 100%;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.error {
+    position: absolute;
+    background: #4c4c4c;
+    text-align: center;
+    height: 50px;
+    margin-top: 10%;
+    left: 10%;
+    top: 50%;
+}
+
+.sol {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: none;
+    left: 6%;
+    flex-direction: row;
+}
+
+.sol input {
+    width: 80px;
+    outline: none;
+    margin: 20px;
+}
+
+.sol label {
+    background: none;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sol input[type="button"] {
+    width: 80px;
+    background: none;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ffffff;
+}

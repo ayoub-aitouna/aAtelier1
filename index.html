@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scipt.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <input type="text" id="num1" class="number _center" placeholder="First Number">
+        <input type="text" id="num2" class="number center" placeholder="Second Number">
+        <input type="button" class="centerbutton" value="aléatoire" onclick="alea()">
+        <script>
+            window.onload = alea();
+        </script>
+    </div>
+    <div class="sol">
+        <label for="">A+B</label>
+        <input type="text" id="sol1" class="solinpt">
+        <label for="">A-B</label>
+        <input type="text" id="sol2" class="solinpt">
+        <label for="">A*B</label>
+        <input type="text" id="sol3" class="solinpt">
+        <label for="">A/B</label>
+        <input type="text" id="sol4" class="solinpt">
+        <input type="button" value="OK" onclick="ok()">
+    </div>
+    <table class="table">
+        <tr class="tr">
+            <td class="td">A+B</td>
+            <td class="td"><input type="text" class="inpt" placeholder="op1" id="op1"></td>
+        </tr>
+        <tr class="tr">
+            <td class="td">A-B</td>
+            <td class="td"><input type="text" class="inpt" placeholder="op2" id="op2"></td>
+        </tr>
+        <tr class="tr">
+            <td class="td">A*B</td>
+            <td class="td"><input type="text" class="inpt" placeholder="op3" id="op3"></td>
+        </tr>
+        <tr class="tr">
+            <td class="td">A/B</td>
+            <td class="td"><input type="text" class="inpt" placeholder="op4" id="op4"></td>
+        </tr>
+        <tfoot class="tfoot">
+            <tr class="tr">
+                <td class="td"><input type="button" value="Verefie" onclick="verefie()"></td>
+            </tr>
+            <div class="error"> <span id="msg"> </span></div>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
